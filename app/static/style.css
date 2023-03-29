@@ -1,0 +1,60 @@
+/* Style for the navbar */
+.navbar {
+    background-color: #dc3545; /* Set the background color of the navbar */
+  }
+  
+  /* Style for the navbar brand */
+  .navbar-brand {
+    color: #fff; /* Set the color of the navbar brand */
+    font-size: 1.5rem; /* Set the font size of the navbar brand */
+    font-weight: bold; /* Set the font weight of the navbar brand */
+  }
+  
+  /* Style for the navbar toggler icon */
+  .navbar-toggler-icon {
+    color: #fff; /* Set the color of the navbar toggler icon */
+  }
+  
+  /* Style for the navbar links */
+  .navbar-nav .nav-link {
+    color: #fff; /* Set the color of the navbar links */
+    font-size: 1.2rem; /* Set the font size of the navbar links */
+    font-weight: bold; /* Set the font weight of the navbar links */
+    text-transform: uppercase; /* Set the text transform of the navbar links */
+  }
+  
+  /* Style for the navbar links on hover */
+  .navbar-nav .nav-link:hover {
+    color: #fff; /* Set the hover color of the navbar links */
+    background-color: #b3000c; /* Set the hover background color of the navbar links */
+  }
+  
+  /* Media query for small screens */
+  @media (max-width: 767px) {
+    /* Collapse the navbar on small screens */
+    .navbar-collapse {
+      display: none;
+    }
+  
+    /* Style for the navbar toggler icon on small screens */
+    .navbar-toggler {
+      display: block;
+    }
+  
+    /* Style for the collapsed navbar menu on small screens */
+    .navbar-nav {
+      flex-direction: column;
+      padding-top: 1rem;
+    }
+  
+    /* Style for the collapsed navbar links on small screens */
+    .navbar-nav .nav-link {
+      padding: .5rem 1rem;
+    }
+  
+    /* Style for the active collapsed navbar link on small screens */
+    .navbar-nav .nav-link.active {
+      color: #fff;
+      background-color: #b3000c;
+    }
+  }
